@@ -1,0 +1,32 @@
+.book-module {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: flex-start;
+    padding:50px;
+}
+.book-module_cover {
+    width:300px;
+    height:300px;
+    overflow: hidden;
+}
+.book-module_img {
+    width:300px;
+    height:300px;
+    object-fit: cover;
+}
+.book-module_title {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:brown;
+    text-align: left;
+    padding:0;
+    margin:0;
+}
+.book-module_hotline {
+    width:300px;
+    display:flex;
+    align-items: center;
+    gap:10px;
+}

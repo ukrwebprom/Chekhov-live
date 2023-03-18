@@ -1,0 +1,15 @@
+.book-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: content-box;
+}
+
+.book-list-item {
+  width: 288.75px;
+  border: 0;
+}/*# sourceMappingURL=booklist.css.map */

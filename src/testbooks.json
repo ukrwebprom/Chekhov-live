@@ -1,0 +1,26 @@
+[
+  {
+    "id": "0001",
+    "cover": "https://loremflickr.com/640/480/tanning",
+    "title": "Anna Petrovna and the hedgehog",
+    "author": ["Ilf", "Petrov"]
+  },
+  {
+    "id": "0002",
+    "cover": "https://loremflickr.com/640/480/beach",
+    "title": "Lalalend",
+    "author": ["Anastasiya"]
+  },
+  {
+    "id": "0003",
+    "cover": "https://loremflickr.com/640/480/topless",
+    "title": "The wind of destiny",
+    "author": ["A. Krivonos", "N. Konstantinopolskij"]
+  },
+  {
+    "id": "0004",
+    "cover": "https://loremflickr.com/640/480/breast",
+    "title": "The truth abot the lie",
+    "author": ["M.J.Morgan Jr."]
+  }
+]

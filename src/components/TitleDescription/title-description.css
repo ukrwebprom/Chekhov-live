@@ -1,0 +1,28 @@
+.td_container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+@media screen and (min-width: 768px) {
+  .td_container {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15%;
+  }
+}
+
+.td-title {
+  font-size: 48px;
+  font-weight: 900;
+  flex-grow: 1;
+  margin: 0;
+  min-width: 400px;
+}
+
+.td-descr {
+  flex-grow: 0;
+  flex-shrink: 1;
+  text-align: right;
+  font-size: 13px;
+}/*# sourceMappingURL=title-description.css.map */

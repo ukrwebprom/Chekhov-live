@@ -1,0 +1,21 @@
+.burger {
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+    transition: gap 0.3s ease-in-out;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+    cursor:pointer;
+}
+.burger-part {
+    width:20px;
+    height:2px;
+    background-color: brown;
+}
+.opened {
+    gap:10px;
+    
+}

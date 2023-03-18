@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.book-list {
+    display:inline-flex;
+    flex-wrap: wrap;
+    gap:15px;
+    list-style: none;
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing: content-box;
+}
+.book-list-item {
+    width: calc( $desktop-width /4 - 15px/4*3);
+    border:0;
+    
+}

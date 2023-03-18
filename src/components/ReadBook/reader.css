@@ -1,0 +1,36 @@
+.reading-area {
+    width:100%;
+    height: 100vh;
+    position:fixed;
+    background-color: black;
+    overflow:auto;
+}
+
+.phrase {
+    width:80%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin-left:auto;
+    margin-right: auto;
+}
+.phrase-text {
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 7vw;
+    text-align: left;
+}
+@media screen and (min-width:760px) {
+    .phrase-text {
+        font-size: 3vw;
+    }   
+}
+.phrase-auth {
+    color:#FF9900;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5vw;
+}

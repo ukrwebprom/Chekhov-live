@@ -1,0 +1,36 @@
+.book-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.book-preview_cover {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.book-preview_img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.book-preview_title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  line-height: 20px;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-decoration: none;
+}
+.book-preview_title:hover {
+  color: red;
+}/*# sourceMappingURL=book-preview.css.map */

@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+
+.book-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom:20px;
+    align-items: center;
+    @media screen and (min-width: $tablet-width) {
+        flex-direction: row;
+    }
+}
+.book-nav-form {
+    width:80%;
+    display:flex;
+    align-items: center;
+    @media screen and (min-width: $tablet-width) {
+        width:50%;
+    }
+}
+.book-nav-input {
+    height:50px;
+    border-radius:50px;
+    border: 1px solid #bbb;
+    width:100%;
+    padding-left:30px;
+    font-family: inherit;
+    font-size: 18px;
+    outline:none;
+}
+.book-nav-button {
+    position:relative;
+    transform: translateX(-50px);
+    background-color: transparent;
+    border:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-nav-links {
+    display:flex;
+    gap:15px;
+}
+.book-nav-link {
+    color:#00596C;
+}
